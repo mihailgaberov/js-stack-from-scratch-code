@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Mihail Gaberov",
   "license": "MIT",
+  "browserslist": ["> 1%"],
   "scripts": {
     "start": "babel-node src",
     "test": "eslint src"
