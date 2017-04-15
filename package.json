@@ -1,0 +1,8 @@
+{
+  "name": "js-stack-from-scratch-code",
+  "version": "1.0.0",
+  "description": "The code exercises from https://github.com/mihailgaberov/js-stack-from-scratch",
+  "main": "index.js",
+  "author": "Mihail Gaberov",
+  "license": "MIT"
+}
