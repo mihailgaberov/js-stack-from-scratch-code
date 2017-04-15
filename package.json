@@ -6,7 +6,11 @@
   "author": "Mihail Gaberov",
   "license": "MIT",
   "scripts": {
-    "start": "node ."
+    "start": "babel-node src"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0"
+  }
 }
