@@ -1,7 +1,7 @@
 /**
  * Created by Mihail on 4/15/2017.
  */
-const Dog = require('./dog')
+import Dog from './dog'
 
 const toby = new Dog('Toby')
 console.log(toby.bark())
