@@ -4,5 +4,9 @@
   "description": "The code exercises from https://github.com/mihailgaberov/js-stack-from-scratch",
   "main": "index.js",
   "author": "Mihail Gaberov",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {}
 }
