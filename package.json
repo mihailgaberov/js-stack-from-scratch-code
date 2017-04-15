@@ -6,7 +6,8 @@
   "author": "Mihail Gaberov",
   "license": "MIT",
   "scripts": {
-    "start": "babel-node src"
+    "start": "babel-node src",
+    "test": "eslint src"
   },
   "dependencies": {},
   "devDependencies": {
