@@ -1,8 +1,13 @@
 /**
  * Created by Mihail on 4/15/2017.
  */
+
+// @flow
+
 class Dog {
-  constructor(name) {
+  name: string
+
+  constructor(name: string) {
     this.name = name
   }
 

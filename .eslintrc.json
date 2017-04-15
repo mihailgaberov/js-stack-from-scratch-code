@@ -1,6 +1,10 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "airbnb",
+    "plugin:flowtype/recommended"
+  ],
   "plugins": [
+    "flowtype",
     "compat"
   ],
   "rules": {
