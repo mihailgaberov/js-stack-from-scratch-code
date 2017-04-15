@@ -11,8 +11,7 @@
   "scripts": {
     "start": "babel-node src",
     "test": "eslint src && flow && jest --coverage",
-    "precommit": "yarn test",
-    "prepush": "yarn test"
+    "precommit": "yarn test"
   },
   "dependencies": {},
   "devDependencies": {
