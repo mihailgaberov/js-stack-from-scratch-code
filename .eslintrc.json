@@ -13,6 +13,7 @@
     "compat/compat": 2
   },
   "env": {
-    "jest": true
+    "jest": true,
+    "browser": true
   }
 }

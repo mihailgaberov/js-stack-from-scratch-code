@@ -19,13 +19,16 @@
     "prod:stop": "pm2 delete server"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "compression": "^1.6.2",
     "express": "^4.15.2"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.2",
     "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.4.0",
     "babel-preset-flow": "^6.23.0",
     "cross-env": "^4.0.0",
@@ -41,6 +44,8 @@
     "jest": "^19.0.2",
     "nodemon": "^1.11.0",
     "pm2": "^2.4.4",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
   }
 }
