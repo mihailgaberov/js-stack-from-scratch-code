@@ -9,7 +9,7 @@
     "> 1%"
   ],
   "scripts": {
-    "start": "babel-node src",
+    "start": "babel-node src/server",
     "test": "eslint src && flow && jest --coverage",
     "precommit": "yarn test",
     "prepush": "yarn test"
@@ -33,6 +33,7 @@
     "eslint-plugin-react": "^6.10.3",
     "flow-bin": "^0.44.0",
     "husky": "^0.13.3",
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "nodemon": "^1.11.0"
   }
 }
