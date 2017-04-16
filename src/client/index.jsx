@@ -12,8 +12,8 @@ import { createStore, combineReducers, applyMiddleware, compose } from 'redux'
 import thunkMiddleware from 'redux-thunk'
 import { BrowserRouter } from 'react-router-dom'
 
-import App from './app'
-import helloReducer from './reducer/hello'
+import App from '../shared/app'
+import helloReducer from '../shared/reducer/hello'
 import { APP_CONTAINER_SELECTOR } from '../shared/config'
 import { isProd } from '../shared/util'
 
@@ -40,7 +40,7 @@ if (module.hot) {
   // flow-disable-next-line
   module.hot.accept('./app', () => {
     // eslint-disable-next-line global-require
-    const NextApp = require('./app').default
+    const NextApp = require('../shared/app').default
     ReactDOM.render(wrapApp(NextApp, store), rootEl)
   })
 }
