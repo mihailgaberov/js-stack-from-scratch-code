@@ -1,0 +1,19 @@
+{
+  "name": "js-stack-from-scratch-code",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "NPM_CONFIG_PRODUCTION": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
