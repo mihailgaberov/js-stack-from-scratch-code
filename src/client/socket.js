@@ -19,7 +19,7 @@ const socket = socketIOClient(window.location.host)
 // eslint-disable-next-line no-unused-vars
 const setUpSocket = (store: Object) => {
   socket.on(IO_CONNECT, () => {
-    console.log('[socket.io] Connected.')
+    console.log('[socket.io] Connected...')
     socket.emit(IO_CLIENT_JOIN_ROOM, 'hello-1234')
     socket.emit(IO_CLIENT_HELLO, 'Hello!')
   })
