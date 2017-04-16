@@ -10,7 +10,7 @@ import { APP_NAME } from '../shared/config'
 const App = () =>
   <div>
     <h1>{APP_NAME}</h1>
-    <Message message={'Hello mada faka!'} />
+    <Message message={''} />
     <HelloButton />
     <MessageAsync />
     <HelloAsyncButton />
