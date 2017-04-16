@@ -25,12 +25,14 @@
     "compression": "^1.6.2",
     "express": "^4.15.2",
     "immutable": "4.0.0-rc.2",
+    "isomorphic-fetch": "^2.2.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-hot-loader": "next",
     "react-redux": "^5.0.4",
     "redux": "^3.6.0",
-    "redux-actions": "^2.0.1"
+    "redux-actions": "^2.0.1",
+    "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
