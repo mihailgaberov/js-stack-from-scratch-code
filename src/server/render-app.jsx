@@ -7,6 +7,7 @@ import React from 'react'
 import ReactDOMServer from 'react-dom/server'
 import { Provider } from 'react-redux'
 import { StaticRouter } from 'react-router'
+import Helmet from 'react-helmet'
 
 import initStore from './init-store'
 import App from './../shared/app'
@@ -21,12 +22,14 @@ const renderApp = (location: string, plainPartialState: ?Object, routerContext: 
         <App />
       </StaticRouter>
     </Provider>)
+  const head = Helmet.rewind()
 
   return (
     `<!doctype html>
     <html>
       <head>
-        <title>FIX ME</title>
+          ${head.title}
+          ${head.meta}
         <link rel="stylesheet" href="${STATIC_PATH}/css/style.css">
       </head>
       <body>
