@@ -23,7 +23,9 @@
   "dependencies": {
     "babel-polyfill": "^6.23.0",
     "compression": "^1.6.2",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -31,8 +33,10 @@
     "babel-eslint": "^7.2.2",
     "babel-jest": "^19.0.0",
     "babel-loader": "^6.4.1",
+    "babel-plugin-flow-react-proptypes": "^1.2.0",
     "babel-preset-env": "^1.4.0",
     "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
     "cross-env": "^4.0.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
