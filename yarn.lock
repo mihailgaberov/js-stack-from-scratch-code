@@ -56,8 +56,8 @@ ajv-keywords@^1.0.0, ajv-keywords@^1.1.1:
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
 
 ajv@^4.7.0, ajv@^4.9.1:
-  version "4.11.6"
-  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.6.tgz#947e93049790942b2a2d60a8289b28924d39f987"
+  version "4.11.7"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-4.11.7.tgz#8655a5d86d0824985cc471a1d913fb6729a0ec48"
   dependencies:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
@@ -139,8 +139,8 @@ arr-diff@^2.0.0:
     arr-flatten "^1.0.1"
 
 arr-flatten@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.2.tgz#1ec1e63439c54f67d6f72bb4299c3d4f73b2d996"
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/arr-flatten/-/arr-flatten-1.0.3.tgz#a274ed85ac08849b6bd7847c4580745dc51adfb1"
 
 array-equal@^1.0.0:
   version "1.0.0"
@@ -1816,8 +1816,8 @@ eslint-plugin-compat@^1.0.2:
     requireindex "^1.1.0"
 
 eslint-plugin-flowtype@^2.30.4:
-  version "2.30.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.30.4.tgz#771d6bb4578ab8598e9c58018fea2e1a22946249"
+  version "2.31.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-flowtype/-/eslint-plugin-flowtype-2.31.0.tgz#c575f7f5f4a8f0b74bd7339c81c4efbe1dd007fb"
   dependencies:
     lodash "^4.15.0"
 
@@ -2187,8 +2187,8 @@ flat-cache@^1.2.1:
     write "^0.2.1"
 
 flow-bin@^0.44.0:
-  version "0.44.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.44.0.tgz#b291f147e5dae1cc8a116f834f24d9402ed96a52"
+  version "0.44.2"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.44.2.tgz#3893c7db5de043ed82674f327a04b1309db208b5"
 
 for-in@^1.0.1:
   version "1.0.2"
@@ -2567,9 +2567,13 @@ husky@^0.13.3:
     is-ci "^1.0.9"
     normalize-path "^1.0.0"
 
-iconv-lite@0.4.13, iconv-lite@~0.4.13:
+iconv-lite@0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
+
+iconv-lite@~0.4.13:
+  version "0.4.15"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
 ieee754@^1.1.4:
   version "1.1.8"
@@ -2994,8 +2998,8 @@ jest-file-exists@^19.0.0:
   resolved "https://registry.yarnpkg.com/jest-file-exists/-/jest-file-exists-19.0.0.tgz#cca2e587a11ec92e24cfeab3f8a94d657f3fceb8"
 
 jest-haste-map@^19.0.0:
-  version "19.0.0"
-  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-19.0.0.tgz#adde00b62b1fe04432a104b3254fc5004514b55e"
+  version "19.0.1"
+  resolved "https://registry.yarnpkg.com/jest-haste-map/-/jest-haste-map-19.0.1.tgz#7616222491275050c7af39dbeab0a57c32ef9652"
   dependencies:
     fb-watchman "^2.0.0"
     graceful-fs "^4.1.6"
@@ -3236,26 +3240,26 @@ jss-compose@^3.0.0:
     warning "^3.0.0"
 
 jss-default-unit@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/jss-default-unit/-/jss-default-unit-6.1.0.tgz#ea6ca838de119c17adbce597b21ba9c20f7f4d84"
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/jss-default-unit/-/jss-default-unit-6.1.1.tgz#a9a04887a3860d2a8ceb73ddfbc2ddcf808bacb2"
 
 jss-expand@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/jss-expand/-/jss-expand-3.0.0.tgz#ce22bf8f9d99afa822738d82dcc3bdbf32766b1d"
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/jss-expand/-/jss-expand-3.0.1.tgz#90f1b30ad0ab700e666ea54f7186341c50d7feed"
 
 jss-extend@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/jss-extend/-/jss-extend-4.0.0.tgz#1c377d4efd67f34c997b699aa8bc1dab1c7edf95"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/jss-extend/-/jss-extend-4.0.1.tgz#6b716a1b217ba32715dbcb69940ec67b35c415dc"
   dependencies:
     warning "^3.0.0"
 
 jss-global@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jss-global/-/jss-global-1.0.0.tgz#ba87850cd56d32e0623c3878fd5ef376a61e6f65"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/jss-global/-/jss-global-1.0.1.tgz#36731778f6d8649110611f7c178dbcd60fd92b24"
 
 jss-nested@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/jss-nested/-/jss-nested-4.0.0.tgz#70d8aaaeb0ae1c0ca6ac74b329255b71e58bf72e"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/jss-nested/-/jss-nested-4.0.1.tgz#f50cc206430c8a920ccd54e3b756f7fc72455130"
   dependencies:
     warning "^3.0.0"
 
@@ -3363,7 +3367,7 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lodash-es@^4.2.0, lodash-es@^4.2.1:
+lodash-es@^4.17.4, lodash-es@^4.2.0, lodash-es@^4.2.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.4.tgz#dcc1d7552e150a0640073ba9cb31d70f032950e7"
 
@@ -4331,11 +4335,12 @@ reduce-reducers@^0.1.0:
   resolved "https://registry.yarnpkg.com/reduce-reducers/-/reduce-reducers-0.1.2.tgz#fa1b4718bc5292a71ddd1e5d839c9bea9770f14b"
 
 redux-actions@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/redux-actions/-/redux-actions-2.0.1.tgz#8bae89938987bd0a446c509dfdac6b64e770765a"
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/redux-actions/-/redux-actions-2.0.2.tgz#49b2d9511c240a96cb2c0ca27cb15d016faecec0"
   dependencies:
     invariant "^2.2.1"
     lodash "^4.13.1"
+    lodash-es "^4.17.4"
     reduce-reducers "^0.1.0"
 
 redux-mock-store@^1.2.3:
